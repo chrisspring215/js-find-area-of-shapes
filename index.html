@@ -1,0 +1,50 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+    <meta http-equiv="refresh" content="5; URL=http://space.wccnet.edu/~cacollins/three.js.sandbox/">
+    -->
+    <title>JS Find the Area Of Shapes</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="small-8 columns">
+        <h1>Find the area of...</h1>
+
+        <form>
+          <input id="triangleSelected" checked="checked" type="radio" name="triangle" value="triangle" checked>&nbsp;Triangle
+          <br>
+          <!--
+          <input id="squareSelected" type="radio" name="square" value="square">&nbsp;Square
+          <br>
+          <input id="circleSelected" type="radio" name="circle" value="circle">&nbsp;Circle
+          -->
+
+          <div id="triangleMath">
+            <input id="triangleBase" type="number" placeholder="Enter the base of the triangle">
+            <input id="triangleHeight" type="number" placeholder="Enter the height of the triangle">
+            <button id="doTriangleMath" class="expand" onclick="doTriangleMath()">FIND THE AREA</button>
+          </div>
+
+        </form> 
+
+
+        <script type="text/javascript">init()</script>
+      
+
+      </div>
+    </div>
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
